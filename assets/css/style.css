@@ -6,3 +6,77 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Cabecera */
+#cabecera {
+	background-color: #F78E69;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+    padding: 50px;
+	text-align: right;
+}
+
+#cabecera h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-right: 42px;
+	font-size: 31px;
+}
+
+#cabecera p {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin-right: 138px;
+}
+
+/* Foto uno */
+#foto1 {
+	
+	position: absolute;
+ 	
+}
+
+img {
+	filter: grayscale(100%);
+}
+
+/* About Pandas */
+#about {
+	position: absolute;
+    background-color: #F78E69;
+    margin-top: 459px;
+    padding: 20px;
+
+}
+.linea1 {
+	padding: 173px;
+	background-color: #ABE188;
+	margin-left: -20px;
+    margin-right: -20px;
+}
+.texto  {
+	background-color: #F78E69;
+    padding: 53px;
+}
+
+.texto h2 {
+	text-align: center;
+	color: white;
+	 margin-bottom: 23px;
+
+}
+
+.texto p {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
